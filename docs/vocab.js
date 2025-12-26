@@ -1,4 +1,4 @@
-fetch('../vocab.csv')
+fetch('vocab.csv')
   .then(r => r.text())
   .then(txt => {
      txt.split('\n').slice(1)            // skip header
